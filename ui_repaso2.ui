@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>729</width>
-    <height>530</height>
+    <width>759</width>
+    <height>1013</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -37,9 +37,9 @@
     <property name="geometry">
      <rect>
       <x>9</x>
-      <y>241</y>
-      <width>661</width>
-      <height>24</height>
+      <y>74</y>
+      <width>731</width>
+      <height>391</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -50,51 +50,149 @@
        </property>
       </widget>
      </item>
+     <item>
+      <widget class="QComboBox" name="boxRol">
+       <property name="accessibleName">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Introduzca su rol:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="layoutDirection">
+        <enum>Qt::LayoutDirection::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>Acepto las normas:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="enviar">
+       <property name="text">
+        <string>Enviar datos</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </widget>
-   <widget class="QComboBox" name="boxRol">
+   <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>512</x>
-      <y>290</y>
-      <width>141</width>
-      <height>24</height>
+      <x>0</x>
+      <y>470</y>
+      <width>721</width>
+      <height>20</height>
      </rect>
     </property>
-    <property name="accessibleName">
-     <string/>
-    </property>
-    <property name="placeholderText">
-     <string>Introduzca su rol:</string>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QLabel" name="Repaso31label">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>430</y>
-      <width>131</width>
+      <x>270</x>
+      <y>510</y>
+      <width>201</width>
       <height>20</height>
      </rect>
     </property>
     <property name="layoutDirection">
-     <enum>Qt::LayoutDirection::RightToLeft</enum>
+     <enum>Qt::LayoutDirection::LeftToRight</enum>
     </property>
     <property name="text">
-     <string>Acepto las normas:</string>
+     <string>REPASO 3.1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="enviar">
+   <widget class="QPushButton" name="iniciarBoton">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>430</y>
-      <width>101</width>
+      <x>330</x>
+      <y>590</y>
+      <width>79</width>
       <height>24</height>
      </rect>
     </property>
     <property name="text">
-     <string>Enviar datos</string>
+     <string>Iniciar</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>620</y>
+      <width>701</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>680</y>
+      <width>721</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Repaso32_label">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>710</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LayoutDirection::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>REPASO 3.2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="lista">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>750</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LayoutDirection::LeftToRight</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Progreso">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>560</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Progreso</string>
     </property>
    </widget>
   </widget>
@@ -103,7 +201,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>729</width>
+     <width>759</width>
      <height>33</height>
     </rect>
    </property>
